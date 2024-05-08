@@ -1,6 +1,5 @@
 package com.sanyam.tmdbclient.data.api
 
-import com.sanyam.tmdbclient.data.model.artist.ArtistList
 import com.sanyam.tmdbclient.data.model.movie.MovieList
 import com.sanyam.tmdbclient.data.model.tvshow.TvShowList
 import retrofit2.Response
@@ -22,15 +21,5 @@ interface TMDBService {
             "api_key"
         ) apiKey: String
     ): Response<TvShowList>
-
-    @GET("person/popular")
-    suspend fun getPopularArtists(
-        @Query(
-            "api_key"
-        ) apiKey: String
-    ): Response<ArtistList>
-
-
-
 
 }
