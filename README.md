@@ -1,13 +1,12 @@
 # TMDB Android Client Application
 ## Description
-A simple project using The Movie DB based on Kotlin MVVM clean architecture and material designs & animations.
+A simple android project using The Movie DB API.
 <p>
 <img src="screenshots/1.jpeg" width="24%" height="40%"/>
 </p>
 
-#### How to build on your environment
-Add your API key in app/build.gradle file.
-Replace API key string - buildConfigField "String","API_KEY","\"35b66ff5adb5584b5d641e83160bbcec\""
+## How to build on your environment
+Replace API key in app/build.gradle file.
 
 ## Technologies
 
